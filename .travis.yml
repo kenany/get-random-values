@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "0.8"
+  - "0.10"
+git:
+  depth: 10
+branches:
+  only:
+    - master
+before_install:
+  - npm install -g npm
+  - npm --version

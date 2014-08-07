@@ -1,5 +1,7 @@
 # get-random-values
 
+[![Build Status](https://img.shields.io/travis/KenanY/get-random-values.svg)](https://travis-ci.org/KenanY/get-random-values)
+
 `window.crypto.getRandomValues` or `window.msCrypto.getRandomValues` or
 `require('crypto').randomBytes` or an _Error_.
 
