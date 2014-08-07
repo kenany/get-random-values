@@ -1,6 +1,6 @@
 {
   "name": "get-random-values",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "`window.crypto.getRandomValues` with fallback to Node.js crypto",
   "keywords": [
     "crypto"
