@@ -20,12 +20,14 @@
     "test": "tape test/*.js"
   },
   "dependencies": {
-    "broquire": "^0.3.0",
     "global": "^4.2.1"
   },
   "devDependencies": {
     "lodash.foreach": "^2.4.1",
     "lodash.isfunction": "^2.4.1",
     "tape": "^2.14.0"
+  },
+  "browser": {
+    "crypto": false
   }
 }

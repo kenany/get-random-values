@@ -1,7 +1,5 @@
-var broquire = require('broquire')(require);
 var window = require('global/window');
-
-var nodeCrypto = broquire('crypto', null);
+var nodeCrypto = require('crypto');
 
 function getRandomValues(buf) {
   if (window.crypto && window.crypto.getRandomValues) {
