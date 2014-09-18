@@ -29,5 +29,16 @@
   },
   "browser": {
     "crypto": false
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "chrome/11..latest",
+      "firefox/21..latest",
+      "safari/4.0..latest",
+      "opera/15.0..latest",
+      "iphone/6",
+      "ipad/6"
+    ]
   }
 }

@@ -6,6 +6,8 @@
 `window.crypto.getRandomValues` or `window.msCrypto.getRandomValues` or
 `require('crypto').randomBytes` or an _Error_.
 
+[![testling badge](https://ci.testling.com/KenanY/get-random-values.png)](https://ci.testling.com/KenanY/get-random-values)
+
 ## Example
 
 ``` javascript
