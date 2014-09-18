@@ -24,6 +24,6 @@ function getRandomValues(buf) {
   else {
     throw new Error('No secure random number generator available.');
   }
-};
+}
 
 module.exports = getRandomValues;
