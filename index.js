@@ -8,7 +8,7 @@ function getRandomValues(buf) {
   else if (typeof window.msCrypto === 'object' && typeof window.msCrypto.getRandomValues === 'function') {
     window.msCrypto.getRandomValues(buf);
   }
-  else if (nodeCrypto) {
+  else if (nodeCrypto.randomBytes) {
     if (buf.length > 65536) {
       var e = new Error();
       e.code = 22;
