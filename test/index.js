@@ -2,6 +2,7 @@ var getRandomValues = require('../');
 var test = require('tape');
 var isFunction = require('lodash.isfunction');
 var forEach = require('lodash.foreach');
+var isBrowser = require('is-browser');
 
 test('exports a function', function(t) {
   t.plan(1);
@@ -10,13 +11,18 @@ test('exports a function', function(t) {
 
 test('does not cast buffer', function(t) {
   var TYPES = [
-    Int8Array,
     Uint8Array,
-    Int16Array,
-    Uint16Array,
-    Int32Array,
-    Uint32Array
   ];
+
+  if (isBrowser) {
+    Array.prototype.push.apply(TYPES, [
+      Int8Array,
+      Int16Array,
+      Uint16Array,
+      Int32Array,
+      Uint32Array
+    ]);
+  }
 
   t.plan(TYPES.length * 3);
 
@@ -33,6 +39,6 @@ test('does not cast buffer', function(t) {
 test('throws on length >65536', function(t) {
   t.plan(1);
   t.throws(function() {
-    getRandomValues(new Int8Array(65537));
+    getRandomValues(new Uint8Array(65537));
   }, new RegExp(/QuotaExceededError/));
 });

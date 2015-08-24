@@ -54,3 +54,6 @@ If none of the above are available, then an _Error_ is thrown.
 
 Throws _QuotaExceededError_ if `buf.length > 65536` (even if Node.js crypto,
 which doesn't have that limit, is being used).
+
+`buf` **must** be a _Uint8Array_ if Node.js crypto is used, otherwise a
+_TypeError_ will be thrown.

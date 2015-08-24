@@ -9,6 +9,9 @@ function getRandomValues(buf) {
     window.msCrypto.getRandomValues(buf);
   }
   else if (nodeCrypto.randomBytes) {
+    if (!(buf instanceof Uint8Array)) {
+      throw new TypeError('expected Uint8Array');
+    }
     if (buf.length > 65536) {
       var e = new Error();
       e.code = 22;
