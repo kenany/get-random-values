@@ -3,12 +3,12 @@ var nodeCrypto = require('crypto');
 
 function getRandomValues(buf) {
   if (window.crypto && window.crypto.getRandomValues) {
-    window.crypto.getRandomValues(buf);
+    return window.crypto.getRandomValues(buf);
   }
-  else if (typeof window.msCrypto === 'object' && typeof window.msCrypto.getRandomValues === 'function') {
-    window.msCrypto.getRandomValues(buf);
+  if (typeof window.msCrypto === 'object' && typeof window.msCrypto.getRandomValues === 'function') {
+    return window.msCrypto.getRandomValues(buf);
   }
-  else if (nodeCrypto.randomBytes) {
+  if (nodeCrypto.randomBytes) {
     if (!(buf instanceof Uint8Array)) {
       throw new TypeError('expected Uint8Array');
     }
@@ -23,6 +23,7 @@ function getRandomValues(buf) {
     }
     var bytes = nodeCrypto.randomBytes(buf.length);
     buf.set(bytes);
+    return buf;
   }
   else {
     throw new Error('No secure random number generator available.');

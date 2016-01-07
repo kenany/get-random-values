@@ -42,3 +42,9 @@ test('throws on length >65536', function(t) {
     getRandomValues(new Uint8Array(65537));
   }, new RegExp(/QuotaExceededError/));
 });
+
+test('returns arguement', function(t) {
+  t.plan(1);
+  var argument = new Uint8Array(1024);
+  t.equal(getRandomValues(argument), argument);
+});
