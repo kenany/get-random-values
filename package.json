@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "is-browser": "^2.0.1",
-    "lodash.foreach": "^2.4.1",
+    "lodash.foreach": "^3.0.3",
     "lodash.isfunction": "^2.4.1",
     "tape": "^4.4.0"
   },
