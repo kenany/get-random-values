@@ -33,7 +33,7 @@ test('does not cast buffer', function(t) {
     });
     t.equal(buf.constructor, Type);
     t.equal(buf.length, 8);
-  })
+  });
 });
 
 test('throws on length >65536', function(t) {
