@@ -26,7 +26,7 @@
     "is-browser": "^2.0.1",
     "lodash.foreach": "^2.4.1",
     "lodash.isfunction": "^2.4.1",
-    "tape": "^2.14.0"
+    "tape": "^4.4.0"
   },
   "browser": {
     "crypto": false
