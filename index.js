@@ -1,5 +1,7 @@
-var window = require('global/window');
-var nodeCrypto = require('crypto');
+if (typeof require === 'function') {
+  var window = require('global/window');
+  var nodeCrypto = require('crypto');
+}
 
 function getRandomValues(buf) {
   if (window.crypto && window.crypto.getRandomValues) {
@@ -30,4 +32,6 @@ function getRandomValues(buf) {
   }
 }
 
-module.exports = getRandomValues;
+if (typeof module !== 'undefined' && module.hasOwnProperty('exports')) {
+  module.exports = getRandomValues;
+}
