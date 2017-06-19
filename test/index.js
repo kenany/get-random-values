@@ -11,7 +11,7 @@ test('exports a function', function(t) {
 
 test('does not cast buffer', function(t) {
   var TYPES = [
-    Uint8Array,
+    Uint8Array
   ];
 
   if (isBrowser) {
