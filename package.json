@@ -23,6 +23,7 @@
     "global": "^4.2.1"
   },
   "devDependencies": {
+    "@kenan/renovate-config": "1.1.1",
     "is-browser": "^2.0.1",
     "lodash.foreach": "^4.4.1",
     "lodash.isfunction": "^3.0.6",
