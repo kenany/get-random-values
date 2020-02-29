@@ -24,10 +24,10 @@
   },
   "devDependencies": {
     "@kenan/renovate-config": "1.1.1",
-    "is-browser": "^2.0.1",
-    "lodash.foreach": "^4.4.1",
-    "lodash.isfunction": "^3.0.6",
-    "tape": "^4.4.0"
+    "is-browser": "2.1.0",
+    "lodash.foreach": "4.5.0",
+    "lodash.isfunction": "3.0.9",
+    "tape": "4.13.0"
   },
   "browser": {
     "crypto": false
