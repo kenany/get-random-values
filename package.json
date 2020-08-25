@@ -20,7 +20,7 @@
     "test": "tape test/*.js"
   },
   "dependencies": {
-    "global": "^4.2.1"
+    "global": "^4.4.0"
   },
   "devDependencies": {
     "@kenan/renovate-config": "1.4.0",
