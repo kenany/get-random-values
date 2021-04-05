@@ -35,7 +35,7 @@
     "lodash.foreach": "4.5.0",
     "lodash.isfunction": "3.0.9",
     "semantic-release": "17.4.2",
-    "tape": "5.0.1"
+    "tape": "5.2.2"
   },
   "browser": {
     "crypto": false
