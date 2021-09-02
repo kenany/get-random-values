@@ -34,7 +34,7 @@
     "is-browser": "2.1.0",
     "lodash.foreach": "4.5.0",
     "lodash.isfunction": "3.0.9",
-    "semantic-release": "17.4.4",
+    "semantic-release": "17.4.7",
     "tape": "5.3.1"
   },
   "browser": {
