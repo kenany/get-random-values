@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/KenanY/get-random-values/compare/1.2.2...2.0.0) (2022-06-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v10 and v12 are no longer supported.
+
+### Features
+
+* drop Node.js v10 and v12 support ([1e727b9](https://github.com/KenanY/get-random-values/commit/1e727b95bc162a7afbb6608687950101fae573ab))
+
 ### [1.2.2](https://github.com/KenanY/get-random-values/compare/1.2.1...1.2.2) (2020-08-25)
 
 
