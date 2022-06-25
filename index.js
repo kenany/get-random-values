@@ -1,6 +1,12 @@
+/** @type {Window} */
 var window = require('global/window');
 var nodeCrypto = require('crypto');
 
+/**
+ * @template {ArrayBufferView | null} T
+ * @param {T} buf
+ * @returns {T}
+ */
 function getRandomValues(buf) {
   if (window.crypto && window.crypto.getRandomValues) {
     return window.crypto.getRandomValues(buf);

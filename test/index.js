@@ -1,8 +1,9 @@
-var getRandomValues = require('../');
 var test = require('tape');
 var isFunction = require('lodash.isfunction');
 var forEach = require('lodash.foreach');
 var isBrowser = require('is-browser');
+
+var getRandomValues = require('../');
 
 test('exports a function', function(t) {
   t.plan(1);
@@ -43,7 +44,7 @@ test('throws on length >65536', function(t) {
   }, new RegExp(/QuotaExceededError/));
 });
 
-test('returns arguement', function(t) {
+test('returns argument', function(t) {
   t.plan(1);
   var argument = new Uint8Array(1024);
   t.equal(getRandomValues(argument), argument);
