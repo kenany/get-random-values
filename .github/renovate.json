@@ -1,3 +1,7 @@
 {
-  "extends": ["local>kenany/renovate-config"]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>kenany/renovate-config",
+    ":assignAndReview(kenany)"
+  ]
 }
