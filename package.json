@@ -9,7 +9,10 @@
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "main": "index.js",
+  "types": "index.d.ts",
   "files": [
+    "CHANGELOG.md",
+    "index.d.ts",
     "index.js",
     "LICENSE.txt"
   ],
@@ -20,21 +23,39 @@
     "node": "14 || 16 || >=18"
   },
   "scripts": {
+    "clean": "rimraf --glob test/**/*.d.ts *.d.ts",
+    "lint": "eslint .",
     "release": "semantic-release",
-    "test": "tape test/*.js"
+    "type-coverage": "type-coverage --at-least 100 --detail --strict",
+
+    "prebuild": "npm run clean",
+    "build": "tsc",
+
+    "pretest": "npm run build",
+    "test": "tape test/*.js",
+    "posttest": "npm run lint && npm run type-coverage",
+
+    "prepack": "npm run build"
   },
   "dependencies": {
     "global": "^4.4.0"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "6.0.2",
-    "@semantic-release/git": "10.0.1",
+    "@kenan/eslint-config": "^10.0.1",
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@tsconfig/node14": "^1.0.3",
+    "@types/lodash.isfunction": "^3.0.7",
+    "@types/tape": "^4.13.3",
     "conventional-changelog-conventionalcommits": "^5.0.0",
-    "is-browser": "2.1.0",
-    "lodash.foreach": "4.5.0",
-    "lodash.isfunction": "3.0.9",
+    "eslint": "^8.36.0",
+    "is-browser": "^2.1.0",
+    "lodash.isfunction": "^3.0.9",
+    "rimraf": "^4.4.1",
     "semantic-release": "^20.1.3",
-    "tape": "5.6.3"
+    "tape": "^5.6.3",
+    "type-coverage": "^2.25.0",
+    "typescript": "^4.9.5"
   },
   "browser": {
     "crypto": false

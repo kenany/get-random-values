@@ -1,4 +1,5 @@
-/** @type {Window} */
+/* eslint-disable no-var, operator-linebreak */
+
 var window = require('global/window');
 var nodeCrypto = require('crypto');
 
@@ -20,6 +21,7 @@ function getRandomValues(buf) {
     }
     if (buf.length > 65536) {
       var e = new Error();
+      // @ts-expect-error
       e.code = 22;
       e.message = 'Failed to execute \'getRandomValues\' on \'Crypto\': The ' +
         'ArrayBufferView\'s byte length (' + buf.length + ') exceeds the ' +
