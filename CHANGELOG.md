@@ -1,3 +1,10 @@
+## [2.1.0](https://github.com/KenanY/get-random-values/compare/2.0.0...2.1.0) (2023-03-26)
+
+
+### Features
+
+* add TypeScript declarations ([9a7f39f](https://github.com/KenanY/get-random-values/commit/9a7f39fbfca6b94699024619eccebeba83babc07))
+
 ## [2.0.0](https://github.com/KenanY/get-random-values/compare/1.2.2...2.0.0) (2022-06-25)
 
 

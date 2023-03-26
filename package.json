@@ -1,6 +1,6 @@
 {
   "name": "get-random-values",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "`window.crypto.getRandomValues` with fallback to Node.js crypto",
   "keywords": [
     "crypto"
@@ -27,14 +27,11 @@
     "lint": "eslint .",
     "release": "semantic-release",
     "type-coverage": "type-coverage --at-least 100 --detail --strict",
-
     "prebuild": "npm run clean",
     "build": "tsc",
-
     "pretest": "npm run build",
     "test": "tape test/*.js",
     "posttest": "npm run lint && npm run type-coverage",
-
     "prepack": "npm run build"
   },
   "dependencies": {
