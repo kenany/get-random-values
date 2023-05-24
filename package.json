@@ -43,7 +43,7 @@
     "@semantic-release/git": "^10.0.1",
     "@tsconfig/node14": "^1.0.3",
     "@types/lodash.isfunction": "^3.0.7",
-    "@types/tape": "^4.13.4",
+    "@types/tape": "^5.6.0",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "eslint": "^8.41.0",
     "is-browser": "^2.1.0",
