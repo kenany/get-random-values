@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/kenany/get-random-values/compare/2.1.0...3.0.0) (2023-09-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v14 and v16 are no longer supported.
+
+### Features
+
+* drop Node.js v14 and v16 ([329c91b](https://github.com/kenany/get-random-values/commit/329c91b1a7b3b2e937545bf0a9c37d7df6b4f3e7))
+
 ## [2.1.0](https://github.com/KenanY/get-random-values/compare/2.0.0...2.1.0) (2023-03-26)
 
 
