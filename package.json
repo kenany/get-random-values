@@ -49,7 +49,7 @@
     "is-browser": "^2.1.0",
     "lodash.isfunction": "^3.0.9",
     "rimraf": "^5.0.5",
-    "semantic-release": "^23.0.2",
+    "semantic-release": "^23.0.8",
     "tape": "^5.7.5",
     "type-coverage": "^2.27.1",
     "typescript": "^5.4.2"
