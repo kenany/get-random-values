@@ -38,7 +38,7 @@
     "global": "^4.4.0"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^11.1.6",
+    "@kenan/eslint-config": "^11.1.7",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@tsconfig/node18": "^18.2.4",
@@ -51,7 +51,7 @@
     "rimraf": "^5.0.9",
     "semantic-release": "^24.0.0",
     "tape": "^5.8.1",
-    "type-coverage": "^2.29.0",
+    "type-coverage": "^2.29.1",
     "typescript": "^5.5.3"
   },
   "browser": {
