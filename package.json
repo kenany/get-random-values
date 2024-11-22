@@ -51,7 +51,7 @@
     "rimraf": "^6.0.1",
     "semantic-release": "^24.2.0",
     "tape": "^5.9.0",
-    "type-coverage": "^2.29.1",
+    "type-coverage": "^2.29.7",
     "typescript": "^5.6.3"
   },
   "browser": {
