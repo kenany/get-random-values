@@ -1,3 +1,13 @@
+## [4.0.0](https://github.com/kenany/get-random-values/compare/3.0.0...4.0.0) (2025-08-13)
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v18 is no longer supported.
+
+### Features
+
+* drop Node.js v18 support ([ddef386](https://github.com/kenany/get-random-values/commit/ddef386fc0bc842f1e6eed6beac8dea6947f3655))
+
 ## [3.0.0](https://github.com/kenany/get-random-values/compare/2.1.0...3.0.0) (2023-09-21)
 
 
