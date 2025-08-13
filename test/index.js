@@ -4,17 +4,14 @@ const isBrowser = require('is-browser');
 
 const getRandomValues = require('../');
 
-test('exports a function', function(t) {
+test('exports a function', (t) => {
   t.plan(1);
   t.ok(isFunction(getRandomValues));
 });
 
-test('does not cast buffer', function(t) {
-  // eslint-disable-next-line max-len
+test('does not cast buffer', (t) => {
   /** @type {readonly (Uint8ArrayConstructor | Int8ArrayConstructor | Int16ArrayConstructor | Uint16ArrayConstructor | Int32ArrayConstructor | Uint32ArrayConstructor)[]} */
-  let TYPES = [
-    Uint8Array
-  ];
+  let TYPES = [Uint8Array];
 
   if (isBrowser) {
     TYPES = [
@@ -23,7 +20,7 @@ test('does not cast buffer', function(t) {
       Int16Array,
       Uint16Array,
       Int32Array,
-      Uint32Array
+      Uint32Array,
     ];
   }
 
@@ -31,7 +28,7 @@ test('does not cast buffer', function(t) {
 
   for (const Type of TYPES) {
     const buf = new Type(8);
-    t.doesNotThrow(function() {
+    t.doesNotThrow(() => {
       getRandomValues(buf);
     });
     t.equal(buf.constructor, Type);
@@ -39,14 +36,14 @@ test('does not cast buffer', function(t) {
   }
 });
 
-test('throws on length >65536', function(t) {
+test('throws on length >65536', (t) => {
   t.plan(1);
-  t.throws(function() {
-    getRandomValues(new Uint8Array(65537));
+  t.throws(() => {
+    getRandomValues(new Uint8Array(65_537));
   }, /QuotaExceededError/);
 });
 
-test('returns argument', function(t) {
+test('returns argument', (t) => {
   t.plan(1);
   const argument = new Uint8Array(1024);
   t.equal(getRandomValues(argument), argument);

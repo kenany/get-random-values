@@ -20,11 +20,11 @@
     "test": "test"
   },
   "engines": {
-    "node": "18 || >=20"
+    "node": "20 || 22 || >=24"
   },
   "scripts": {
     "clean": "rimraf --glob test/**/*.d.ts *.d.ts",
-    "lint": "eslint .",
+    "lint": "biome check .",
     "release": "semantic-release",
     "type-coverage": "type-coverage --at-least 100 --detail --strict",
     "prebuild": "npm run clean",
@@ -38,21 +38,21 @@
     "global": "^4.4.0"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^11.1.18",
+    "@biomejs/biome": "2.1.4",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@tsconfig/node18": "^18.2.4",
+    "@tsconfig/node20": "20.1.6",
     "@types/lodash.isfunction": "^3.0.9",
     "@types/tape": "^5.8.1",
     "conventional-changelog-conventionalcommits": "^9.1.0",
-    "eslint": "^8.57.1",
     "is-browser": "^2.1.0",
     "lodash.isfunction": "^3.0.9",
     "rimraf": "^6.0.1",
     "semantic-release": "^24.2.7",
     "tape": "^5.9.0",
     "type-coverage": "^2.29.7",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "ultracite": "5.1.2"
   },
   "browser": {
     "crypto": false

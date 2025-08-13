@@ -6,9 +6,9 @@
 ## Example
 
 ``` javascript
-var getRandomValues = require('get-random-values');
+const getRandomValues = require('get-random-values');
 
-var array = new Uint32Array(10);
+const array = new Uint32Array(10);
 getRandomValues(array);
 // => [
 // =>   183,
@@ -33,7 +33,7 @@ $ npm install get-random-values
 ## API
 
 ``` javascript
-var getRandomValues = require('get-random-values');
+const getRandomValues = require('get-random-values');
 ```
 
 ### `getRandomValues(buf)`

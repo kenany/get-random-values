@@ -1,6 +1,6 @@
 declare module 'global/window' {
   interface GlobalWindow extends Window {
-    msCrypto?: Crypto
+    msCrypto?: Crypto;
   }
   const globalWindow: GlobalWindow;
   export = globalWindow;
