@@ -1,14 +1,30 @@
 name: Build
-on: [push, pull_request, merge_group]
+
+on:
+  push:
+    branches:
+      - master
+
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+
+  merge_group:
+
+  workflow_dispatch:
+
 permissions:
   contents: read
+
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
-        node-version: [18, 20]
-        os: [ubuntu-latest]
+        node-version: [20, 22, 24]
     steps:
     - name: Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4.4.0
