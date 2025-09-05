@@ -52,7 +52,7 @@
     "tape": "^5.9.0",
     "type-coverage": "^2.29.7",
     "typescript": "5.9.2",
-    "ultracite": "5.1.2"
+    "ultracite": "5.3.2"
   },
   "browser": {
     "crypto": false
