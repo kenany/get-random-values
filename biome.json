@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "extends": ["ultracite"],
+  "extends": ["@kenan/biome-config"],
   "linter": {
     "rules": {
       "complexity": {
@@ -14,10 +14,7 @@
           }
         }
       },
-      "nursery": {
-        "noAwaitInLoop": "off",
-        "noShadow": "off"
-      },
+      "nursery": "off",
       "performance": {
         "useTopLevelRegex": "off"
       },

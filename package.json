@@ -38,7 +38,8 @@
     "global": "^4.4.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.1.4",
+    "@biomejs/biome": "2.2.2",
+    "@kenan/biome-config": "1.0.4",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@tsconfig/node20": "20.1.6",
@@ -51,8 +52,7 @@
     "semantic-release": "^24.2.7",
     "tape": "^5.9.0",
     "type-coverage": "^2.29.7",
-    "typescript": "5.9.2",
-    "ultracite": "5.1.2"
+    "typescript": "5.9.2"
   },
   "browser": {
     "crypto": false
