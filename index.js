@@ -1,5 +1,6 @@
-const window = require('global/window');
 const nodeCrypto = require('node:crypto');
+
+const window = require('window-or-global');
 
 /**
  * @template {ArrayBufferView<ArrayBufferLike>} T
