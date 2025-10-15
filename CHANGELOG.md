@@ -1,3 +1,9 @@
+## [4.1.0](https://github.com/kenany/get-random-values/compare/4.0.0...4.1.0) (2025-10-15)
+
+### Features
+
+* replace global with window-or-global ([47cb6eb](https://github.com/kenany/get-random-values/commit/47cb6eb517d725248791867661865416e177eec7))
+
 ## [4.0.0](https://github.com/kenany/get-random-values/compare/3.0.0...4.0.0) (2025-08-13)
 
 ### ⚠ BREAKING CHANGES
