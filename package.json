@@ -38,8 +38,8 @@
     "window-or-global": "^1.0.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.6",
-    "@kenan/biome-config": "1.0.4",
+    "@biomejs/biome": "2.3.5",
+    "@kenan/biome-config": "1.0.6",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@tsconfig/node20": "20.1.6",
