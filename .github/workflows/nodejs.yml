@@ -26,19 +26,14 @@ jobs:
       matrix:
         node-version: [20, 22, 24]
     steps:
+    - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+    - run: corepack enable
     - name: Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
       with:
         node-version: ${{ matrix.node-version }}
-    - name: Update npm
-      run: |
-        npm install -g npm
-        npm --version
-    - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        cache: pnpm
     - name: Install dependencies
-      uses: bahmutov/npm-install@3e063b974f0d209807684aa23e534b3dde517fd9 # v1.11.2
-      with:
-        useLockFile: false
-    - run: npm ls
+      run: pnpm install
     - name: Test
-      run: npm test
+      run: pnpm test
