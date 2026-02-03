@@ -50,7 +50,7 @@
     "is-browser": "2.1.0",
     "lodash.isfunction": "3.0.9",
     "rimraf": "6.1.2",
-    "semantic-release": "25.0.2",
+    "semantic-release": "25.0.3",
     "tape": "5.9.0",
     "type-coverage": "2.29.7",
     "typescript": "5.9.3"
