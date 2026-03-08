@@ -46,7 +46,7 @@
     "@tsconfig/node20": "20.1.9",
     "@types/lodash.isfunction": "3.0.9",
     "@types/tape": "5.8.1",
-    "conventional-changelog-conventionalcommits": "9.2.0",
+    "conventional-changelog-conventionalcommits": "9.3.0",
     "is-browser": "2.1.0",
     "lodash.isfunction": "3.0.9",
     "rimraf": "6.1.3",
