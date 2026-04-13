@@ -3,7 +3,7 @@ const nodeCrypto = require('node:crypto');
 const window = require('window-or-global');
 
 /**
- * @template {ArrayBufferView<ArrayBufferLike>} T
+ * @template {ArrayBufferView<ArrayBuffer>} T
  * @param {T} buf
  * @returns {T}
  */
