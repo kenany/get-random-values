@@ -53,7 +53,7 @@
     "semantic-release": "25.0.8",
     "tape": "5.10.2",
     "type-coverage": "2.29.7",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "browser": {
     "crypto": false
