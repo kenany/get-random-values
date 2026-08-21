@@ -43,7 +43,7 @@
     "@biomejs/biome": "2.5.9",
     "@containerbase/semantic-release-pnpm": "1.4.3",
     "@kenan/biome-config": "1.0.6",
-    "@tsconfig/node20": "20.1.9",
+    "@tsconfig/node20": "20.1.10",
     "@types/lodash.isfunction": "3.0.9",
     "@types/tape": "5.8.1",
     "conventional-changelog-conventionalcommits": "9.3.1",
