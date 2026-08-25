@@ -21,9 +21,9 @@ importers:
       '@kenan/biome-config':
         specifier: 1.0.6
         version: 1.0.6(@biomejs/biome@2.5.10)
-      '@tsconfig/node22':
-        specifier: 22.0.6
-        version: 22.0.6
+      '@tsconfig/node24':
+        specifier: 24.0.0
+        version: 24.0.0
       '@types/lodash.isfunction':
         specifier: 3.0.9
         version: 3.0.9
@@ -285,8 +285,8 @@ packages:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
 
-  '@tsconfig/node22@22.0.6':
-    resolution: {integrity: sha512-/5thavHAnWDZwH2H6eEn/T8pBEBhtuKaWGMslsj82kJfvzQgOgEMK7X4goBbIUjgVtAzPTtM9Ml64LA0uxO6Iw==}
+  '@tsconfig/node24@24.0.0':
+    resolution: {integrity: sha512-3/6Cr4dELEAucgPIr6ufY7yBYMi4ttZFOewABADNZ+bm4DUZl4dup2VBcBeP1ejj3QblrWVWux/1XcRv/ZVikA==}
 
   '@types/lodash.isfunction@3.0.9':
     resolution: {integrity: sha512-BLaDvlY09jnPND1wxlGXPrPl2CN4M7qGRah7Tb/rtB1vnLyZmtcw3FRPSUkDsd5n4e+2E5BBrr0ICfYR+S4hZQ==}
@@ -2196,7 +2196,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@tsconfig/node22@22.0.6': {}
+  '@tsconfig/node24@24.0.0': {}
 
   '@types/lodash.isfunction@3.0.9':
     dependencies:
