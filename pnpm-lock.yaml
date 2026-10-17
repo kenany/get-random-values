@@ -49,8 +49,8 @@ importers:
         specifier: 25.0.9
         version: 25.0.9(supports-color@7.2.0)(typescript@6.0.3)
       tape:
-        specifier: 5.10.2
-        version: 5.10.2
+        specifier: 5.10.3
+        version: 5.10.3
       type-coverage:
         specifier: 2.30.3
         version: 2.30.3(typescript@6.0.3)
@@ -1708,8 +1708,8 @@ packages:
     resolution: {integrity: sha512-yEFYrVhod+hdNyx7g5Bnkkb0G6si8HJurOoOEgC8B/O0uXLHlaey/65KRv6cuWBNhBgHKAROVpc7QyYqE5gFng==}
     engines: {node: '>=20'}
 
-  tape@5.10.2:
-    resolution: {integrity: sha512-MfhVVAWa834kfYL4KgrqHblWfwkjaQvfaQhAX/bBTNQsK8oJ4ztpUe7jiemR2Vegw4pYwpnQMy51MhEmRzbbsg==}
+  tape@5.10.3:
+    resolution: {integrity: sha512-p+WLISY4ewSacY6yKWxlT6EY+iutUX2magjOlIx29LhmU08yDjWnZ7n7jBQSS8tsWYFuGW1asj3LUwkK1wW9LQ==}
     hasBin: true
 
   temp-dir@3.0.0:
@@ -3735,7 +3735,7 @@ snapshots:
 
   tagged-tag@1.0.0: {}
 
-  tape@5.10.2:
+  tape@5.10.3:
     dependencies:
       '@ljharb/now': 1.0.1
       '@ljharb/resumer': 0.1.3
