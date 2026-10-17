@@ -52,8 +52,8 @@ importers:
         specifier: 5.10.3
         version: 5.10.3
       type-coverage:
-        specifier: 2.30.3
-        version: 2.30.3(typescript@6.0.3)
+        specifier: 2.30.4
+        version: 2.30.4(typescript@6.0.3)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -1762,13 +1762,13 @@ packages:
     resolution: {integrity: sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==}
     engines: {node: '>=0.6.11 <=0.7.0 || >=0.7.3'}
 
-  type-coverage-core@2.30.3:
-    resolution: {integrity: sha512-figU9wYL0YOHM4tiaUrUAHM8i+CTD6PEYHHDHMz8pOkNAE5eiivKboxikibiu7QXqQ5S0Lz0j6JiSbOTJbYjCQ==}
+  type-coverage-core@2.30.4:
+    resolution: {integrity: sha512-GCea6j/FCuV5I3j4HWjfbAlhw6VghHE2uEMzn2nn7nVUURP1EWNE7eMzziMXoYfF1q4nAUg6a5rKK/Ch8GwbUg==}
     peerDependencies:
       typescript: 2 || 3 || 4 || 5 || 6 || 7
 
-  type-coverage@2.30.3:
-    resolution: {integrity: sha512-3h1hoAysALrBSWgXn4C+5trDmIxvQN6+dvW10Gx4CrD9kXfL2iP+elUEXhXooH9ANNMyLu0Rge5pYv2vSY+FvA==}
+  type-coverage@2.30.4:
+    resolution: {integrity: sha512-tiqxpMrFjA4LEq7Mca4psE88fIVUL6oDq+HOOHxLSUqT+ynKyduaL9ZHxWgR/cqPkI0wYWlo4kYjCOOnqwT5Xw==}
     hasBin: true
 
   type-fest@1.4.0:
@@ -3811,7 +3811,7 @@ snapshots:
 
   tunnel@0.0.6: {}
 
-  type-coverage-core@2.30.3(typescript@6.0.3):
+  type-coverage-core@2.30.4(typescript@6.0.3):
     dependencies:
       fast-glob: 3.3.3
       minimatch: 10.2.6
@@ -3820,11 +3820,11 @@ snapshots:
       tsutils: 3.21.0(typescript@6.0.3)
       typescript: 6.0.3
 
-  type-coverage@2.30.3(typescript@6.0.3):
+  type-coverage@2.30.4(typescript@6.0.3):
     dependencies:
       chalk: 4.1.2
       minimist: 1.2.8
-      type-coverage-core: 2.30.3(typescript@6.0.3)
+      type-coverage-core: 2.30.4(typescript@6.0.3)
     transitivePeerDependencies:
       - typescript
 
