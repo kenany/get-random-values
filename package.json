@@ -42,7 +42,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.5.15",
     "@containerbase/semantic-release-pnpm": "1.4.3",
-    "@kenan/biome-config": "1.1.0",
+    "@kenan/biome-config": "1.2.0",
     "@tsconfig/node22": "22.0.6",
     "@types/lodash.isfunction": "3.0.9",
     "@types/node": "24.19.2",
