@@ -5,7 +5,7 @@
 
 ## Example
 
-``` javascript
+```javascript
 const getRandomValues = require('get-random-values');
 
 const array = new Uint32Array(10);
@@ -26,13 +26,13 @@ getRandomValues(array);
 
 ## Installation
 
-``` bash
+```bash
 $ npm install get-random-values
 ```
 
 ## API
 
-``` javascript
+```javascript
 const getRandomValues = require('get-random-values');
 ```
 
@@ -41,9 +41,9 @@ const getRandomValues = require('get-random-values');
 Fills integer-based _TypedArray_ `buf` with cryptographically random numbers.
 Checks for and uses the first of the following:
 
-  - `window.crypto.getRandomValues`
-  - `window.msCrypto.getRandomValues`
-  - Node.js crypto
+- `window.crypto.getRandomValues`
+- `window.msCrypto.getRandomValues`
+- Node.js crypto
 
 If none of the above are available, then an _Error_ is thrown.
 
