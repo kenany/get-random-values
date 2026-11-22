@@ -52,7 +52,7 @@
     "lodash.isfunction": "3.0.9",
     "rimraf": "6.1.4",
     "semantic-release": "25.0.9",
-    "tape": "5.10.3",
+    "tape": "5.11.0",
     "type-coverage": "2.31.1",
     "typescript": "6.0.3"
   },
