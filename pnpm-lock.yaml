@@ -49,8 +49,8 @@ importers:
         specifier: 25.0.9
         version: 25.0.9(supports-color@7.2.0)(typescript@6.0.3)
       tape:
-        specifier: 5.10.3
-        version: 5.10.3
+        specifier: 5.11.0
+        version: 5.11.0
       type-coverage:
         specifier: 2.31.1
         version: 2.31.1(typescript@6.0.3)
@@ -1272,8 +1272,8 @@ packages:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
 
-  object-inspect@1.13.4:
-    resolution: {integrity: sha512-W67iLl4J2EXEGTbfeHCffrjDfitvLANg0UlX3wFUUSTx92KXRFegMHUVgSqE+wvhAbi4WqjGg9czysTV2Epbew==}
+  object-inspect@1.14.0:
+    resolution: {integrity: sha512-IVgHNlp/jwQX271+Xzoq9LZNTWXxZK+cEOrGBOBxXNbn7fapnZ+Ts6TVMgNOuAezwG2wdtnMX97tTPK6VEnuOQ==}
     engines: {node: '>= 0.4'}
 
   object-is@1.1.6:
@@ -1682,8 +1682,8 @@ packages:
     resolution: {integrity: sha512-yEFYrVhod+hdNyx7g5Bnkkb0G6si8HJurOoOEgC8B/O0uXLHlaey/65KRv6cuWBNhBgHKAROVpc7QyYqE5gFng==}
     engines: {node: '>=20'}
 
-  tape@5.10.3:
-    resolution: {integrity: sha512-p+WLISY4ewSacY6yKWxlT6EY+iutUX2magjOlIx29LhmU08yDjWnZ7n7jBQSS8tsWYFuGW1asj3LUwkK1wW9LQ==}
+  tape@5.11.0:
+    resolution: {integrity: sha512-bp6lvkFt2evk2fb5uZISsqZ7e2EP/1kOY1ioaUjIx7Z+So5HLVM4YlhtUxjmAFCUn+FsefAn7rBbCBrRSMRgyg==}
     hasBin: true
 
   temp-dir@3.0.0:
@@ -2523,7 +2523,7 @@ snapshots:
       es-errors: 1.3.0
       es-object-atoms: 1.1.2
       is-callable: 1.2.7
-      object-inspect: 1.13.4
+      object-inspect: 1.14.0
 
   es-abstract@1.24.2:
     dependencies:
@@ -2562,7 +2562,7 @@ snapshots:
       is-typed-array: 1.1.15
       is-weakref: 1.1.1
       math-intrinsics: 1.1.0
-      object-inspect: 1.13.4
+      object-inspect: 1.14.0
       object-keys: 1.1.1
       object.assign: 4.1.7
       own-keys: 1.0.2
@@ -3147,7 +3147,7 @@ snapshots:
       has-property-descriptors: 1.0.2
       hasown: 2.0.4
       isarray: 2.0.5
-      object-inspect: 1.13.4
+      object-inspect: 1.14.0
 
   ms@2.1.3: {}
 
@@ -3204,7 +3204,7 @@ snapshots:
 
   object-assign@4.1.1: {}
 
-  object-inspect@1.13.4: {}
+  object-inspect@1.14.0: {}
 
   object-is@1.1.6:
     dependencies:
@@ -3528,27 +3528,27 @@ snapshots:
   side-channel-list@1.0.1:
     dependencies:
       es-errors: 1.3.0
-      object-inspect: 1.13.4
+      object-inspect: 1.14.0
 
   side-channel-map@1.0.1:
     dependencies:
       call-bound: 1.0.4
       es-errors: 1.3.0
       get-intrinsic: 1.3.0
-      object-inspect: 1.13.4
+      object-inspect: 1.14.0
 
   side-channel-weakmap@1.0.2:
     dependencies:
       call-bound: 1.0.4
       es-errors: 1.3.0
       get-intrinsic: 1.3.0
-      object-inspect: 1.13.4
+      object-inspect: 1.14.0
       side-channel-map: 1.0.1
 
   side-channel@1.1.1:
     dependencies:
       es-errors: 1.3.0
-      object-inspect: 1.13.4
+      object-inspect: 1.14.0
       side-channel-list: 1.0.1
       side-channel-map: 1.0.1
       side-channel-weakmap: 1.0.2
@@ -3681,7 +3681,7 @@ snapshots:
 
   tagged-tag@1.0.0: {}
 
-  tape@5.10.3:
+  tape@5.11.0:
     dependencies:
       '@ljharb/now': 1.0.1
       '@ljharb/resumer': 0.1.3
@@ -3702,7 +3702,7 @@ snapshots:
       is-regex: 1.2.1
       minimist: 1.2.8
       mock-property: 1.1.2
-      object-inspect: 1.13.4
+      object-inspect: 1.14.0
       object-is: 1.1.6
       object-keys: 1.1.1
       object.assign: 4.1.7
